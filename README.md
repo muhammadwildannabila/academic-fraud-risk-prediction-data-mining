@@ -8,7 +8,7 @@
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Academic%20Project-lightgrey?style=for-the-badge)
 
-### 🔵 Academic Project (Data Mining – Final Assignment)
+### 🔵 Academic Project (Data Mining – Final Assignment) 2025
 
 </div>
 

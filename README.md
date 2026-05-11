@@ -1,158 +1,198 @@
 <div align="center">
 
-# 💳 Fraud Risk Prediction Based on Transaction Characteristics  
-### Data Mining for Financial Risk Analysis
+# 💳 Fraud Risk Prediction Based on Transaction Characteristics
+
+### Machine Learning and Data Mining for Financial Fraud Detection
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
-![Data Mining](https://img.shields.io/badge/Data-Mining-orange?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/Machine-Learning-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Academic%20Project-lightgrey?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn)
+![Data Mining](https://img.shields.io/badge/Data%20Mining-Classification-F97316?style=for-the-badge)
+![Fraud Analytics](https://img.shields.io/badge/Fraud%20Analytics-Financial%20Risk-8B5CF6?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-### 🔵 Academic Project (Data Mining – Final Assignment) 2025
+### 🔵 Academic Project (Data Mining – Final Assignment)
+
+📘 Final Project — Data Mining Course, 2025
+
+[![Notebook](https://img.shields.io/badge/📓_Open_Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/drive/1Iz2nfMgBLZl4bl1T7bCW_HMK0BbqVQAe?usp=sharing)
 
 </div>
 
 ---
 
-## 🧠 Project Overview
+# 🧠 Project Overview
 
-This project focuses on predicting **fraud risk in financial transactions** using data mining and machine learning techniques.
+This project develops a machine learning-based fraud risk prediction system to identify potentially fraudulent financial transactions using transaction characteristics and customer behavior indicators.
 
-The system analyzes transaction characteristics to identify patterns associated with fraudulent behavior and supports early risk detection.
+The solution applies data preprocessing, exploratory analysis, and classification modeling to detect fraud patterns and support early risk identification in banking and fintech environments.
 
----
-
-## 🎯 Objectives
-
-- Identify patterns in transaction data related to fraud  
-- Build predictive models for fraud risk classification  
-- Evaluate model performance using classification metrics  
-- Provide insights for fraud detection and prevention  
+The project demonstrates how data mining techniques can transform raw transaction data into actionable insights for fraud prevention and financial risk monitoring.
 
 ---
 
-## 🗂️ Dataset
+# 🎯 Project Objectives
 
-- Dataset: Transaction-based financial data  
-- Features include:
-  - Transaction amount  
-  - Customer behavior indicators  
-  - Transaction frequency  
-  - Risk-related attributes  
-
-⚠️ Note:
-- Dataset may contain **imbalanced classes (fraud vs non-fraud)**  
-- Requires careful preprocessing and evaluation  
+- Identify behavioral patterns associated with fraudulent transactions.
+- Build predictive models for fraud risk classification.
+- Evaluate model performance using classification metrics.
+- Generate insights to support fraud detection and prevention.
 
 ---
 
-## ⚙️ Methodology
+# 🗂️ Dataset Overview
 
-### 🔹 Data Preprocessing
-- Handling missing values  
-- Feature selection & transformation  
-- Encoding categorical variables  
-
-### 🔹 Exploratory Data Analysis (EDA)
-- Distribution analysis  
-- Correlation analysis  
-- Fraud vs non-fraud comparison  
-
-### 🔹 Modeling
-- Logistic Regression  
-- Decision Tree  
-- Random Forest  
-- (Optional) Other classification models  
-
-### 🔹 Evaluation Metrics
-- Accuracy  
-- Precision  
-- Recall  
-- F1-score  
+| Attribute | Value |
+|---------|-------|
+| Domain | Financial Fraud Analytics |
+| Target Variable | Fraud vs Non-Fraud |
+| Key Features | Transaction Amount, Frequency, Behavioral Indicators |
+| Data Characteristics | Highly Imbalanced Classification Problem |
+| Application Area | Banking and Fintech Security |
 
 ---
 
-## 📊 Key Insights
+# 🧪 Methodology
 
-- Fraud transactions exhibit **distinct behavioral patterns**  
-- Certain features significantly influence fraud detection  
-- Model performance depends on handling **class imbalance**  
-
----
-
-## 📈 Results
-
-- Machine learning models successfully classify fraud risk  
-- Ensemble models (e.g., Random Forest) provide better stability  
-- Trade-off observed between precision and recall  
-
----
-
-## 💡 Practical Implications
-
-This project can be applied to:
-
-- Fraud detection systems  
-- Financial risk monitoring  
-- Banking & fintech security  
-- Real-time transaction analysis  
+```text
+Data Cleaning & Preprocessing
+        ↓
+Exploratory Data Analysis (EDA)
+        ↓
+Feature Engineering
+        ↓
+Class Imbalance Handling
+        ↓
+Machine Learning Modeling
+        ↓
+Model Evaluation
+        ↓
+Fraud Insight Generation
+```
 
 ---
 
-## 💻 Implementation
+# 🤖 Modeling Approach
 
-👉 Google Colab Notebook:  
-https://colab.research.google.com/drive/1Iz2nfMgBLZl4bl1T7bCW_HMK0BbqVQAe?usp=sharing
+The project compares several classification algorithms, including:
 
----
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Additional classification models (optional experimentation)
 
-## 🧩 Tech Stack
+Evaluation metrics include:
 
-- Python (Pandas, NumPy)  
-- Scikit-learn  
-- Matplotlib, Seaborn  
-
----
-
-## ⚠️ Limitations
-
-- Class imbalance affects model performance  
-- Limited feature engineering  
-- Dependent on dataset quality  
+- Accuracy
+- Precision
+- Recall
+- F1 Score
 
 ---
 
-## 🚀 Future Improvements
+# 🔍 Key Insights
 
-- Apply advanced models (XGBoost, LightGBM)  
-- Use SMOTE or resampling techniques  
-- Hyperparameter tuning  
-- Real-time fraud detection system integration  
-
----
-
-## 🎯 Project Positioning
-
-This project demonstrates competencies in:
-
-- Data Mining & Classification  
-- Exploratory Data Analysis (EDA)  
-- Machine Learning Modeling  
-- Model Evaluation & Interpretation  
-- Financial Data Analysis  
+- Fraud transactions exhibit distinct behavioral patterns.
+- Class imbalance significantly affects model performance.
+- Ensemble models such as Random Forest provide more stable results.
+- Precision and recall must be balanced to minimize false positives and false negatives.
 
 ---
 
-## 👨‍💻 Author & Contributors
+# 📈 Project Results
 
-| Name | Role |
-|------|------|
-| **Muhammad Wildan Nabila** | Lead Data Scientist / Machine Learning Engineer |
-| Hans Adiyatma Putra | Data Analyst / Data Preprocessing |
-| Irawana Juwita | Data Analyst / Exploratory Data Analysis |
+- Machine learning models successfully classified fraud risk.
+- Random Forest demonstrated strong predictive stability.
+- The analysis highlighted the importance of preprocessing and imbalance handling.
+- The resulting models can support practical fraud monitoring applications.
 
 ---
 
-## 🚀 Closing
+# 👥 Team & Contributions
 
-> Transforming transaction data into actionable insights for fraud detection using data mining and machine learning.
+| Name | Role | Contribution |
+|------|------|-------------|
+| **Muhammad Wildan Nabila** | Lead Data Scientist / Machine Learning Engineer | Project design, modeling, evaluation, and insight generation |
+| Hans Adiyatma Putra | Data Analyst | Data preprocessing and feature preparation |
+| Irawana Juwita | Data Analyst | Exploratory Data Analysis and visualization |
+
+---
+
+# 👨‍💻 My Contribution
+
+As **Lead Data Scientist / Machine Learning Engineer**, my responsibilities included:
+
+- Designing the analytical framework.
+- Developing and comparing machine learning models.
+- Evaluating classification performance.
+- Interpreting fraud patterns and insights.
+- Preparing technical documentation.
+
+---
+
+# 🚧 Key Challenge
+
+**Challenge:** Fraud detection is a highly imbalanced classification problem, where fraudulent transactions represent only a small proportion of the dataset.
+
+**Solution:** We applied careful preprocessing, feature engineering, and metric-based evaluation to ensure model performance was assessed beyond simple accuracy.
+
+---
+
+# 💼 Practical Impact
+
+This project can support:
+
+- Fraud detection systems
+- Financial risk monitoring
+- Banking and fintech security
+- Transaction screening
+- Early warning systems
+
+---
+
+# 🛠️ Technology Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Data Mining
+- Machine Learning
+
+---
+
+# 🚀 Future Improvements
+
+- SMOTE and advanced resampling techniques
+- XGBoost and LightGBM
+- Hyperparameter tuning
+- Real-time fraud detection integration
+
+---
+
+# 🎯 Career Relevance
+
+Relevant for roles in:
+
+- Data Analyst
+- Data Scientist
+- Machine Learning Engineer
+- Fraud Analyst
+- Risk Analyst
+- Financial Data Analyst
+
+---
+
+# 👨‍💻 Author
+
+**Muhammad Wildan Nabila**  
+Lead Data Scientist — Academic Project Team
+
+---
+
+<div align="center">
+
+### 💳 Transforming Transaction Data into Actionable Financial Risk Intelligence
+
+</div>
